@@ -43,8 +43,8 @@ __MWOPC_PART_BEGIN__ /metadata/coreProperties.xml
   <dcterms:created xsi:type="dcterms:W3CDTF">2025-06-26T10:36:59Z</dcterms:created>
   <dc:creator>jkhurana</dc:creator>
   <cp:lastModifiedBy>jkhurana</cp:lastModifiedBy>
-  <dcterms:modified xsi:type="dcterms:W3CDTF">2025-06-26T11:26:23Z</dcterms:modified>
-  <cp:revision>1.3</cp:revision>
+  <dcterms:modified xsi:type="dcterms:W3CDTF">2025-06-26T11:36:13Z</dcterms:modified>
+  <cp:revision>1.4</cp:revision>
   <cp:version>R2025a</cp:version>
 </cp:coreProperties>
 
@@ -111,7 +111,7 @@ __MWOPC_PART_BEGIN__ /simulink/blockdiagram.xml
     <ConfigManagerSettings>
       <P Name="ModifiedByFormat">%&lt;Auto&gt;</P>
       <P Name="ModifiedDateFormat">%&lt;Auto&gt;</P>
-      <P Name="ModelVersionFormat">%&lt;AutoIncrement:1.3&gt;</P>
+      <P Name="ModelVersionFormat">%&lt;AutoIncrement:1.4&gt;</P>
     </ConfigManagerSettings>
     <SimulationSettings>
       <P Name="SimulationMode">normal</P>
@@ -1019,7 +1019,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
   <Block BlockType="Gain" Name="Gain" SID="4">
     <P Name="Position">[400, 200, 430, 230]</P>
     <P Name="ZOrder">4</P>
-    <P Name="Gain">3</P>
+    <P Name="Gain">4</P>
   </Block>
   <Block BlockType="Outport" Name="Out1" SID="6">
     <P Name="Position">[580, 258, 610, 272]</P>
@@ -1064,8 +1064,8 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
         <P Name="LoadSaveID" Class="char">0</P>
         <P Name="Extents" Class="double">[886.0, 525.0]</P>
         <P Name="ZoomFactor" Class="double">1.0</P>
-        <P Name="Offset" Class="double">[0.0, 0.0]</P>
-        <P Name="SceneRectInView" Class="double">[0.0, 0.0, 886.0, 525.0]</P>
+        <P Name="Offset" Class="double">[0.0, 0.72336959838867188]</P>
+        <P Name="SceneRectInView" Class="double">[0.0, 0.72336959838867188, 886.0, 525.0]</P>
       </Object>
       <Array PropName="DockComponentsInfo" Type="Simulink.DockComponentInfo" Dimension="1*2">
         <Object ObjectID="6">
